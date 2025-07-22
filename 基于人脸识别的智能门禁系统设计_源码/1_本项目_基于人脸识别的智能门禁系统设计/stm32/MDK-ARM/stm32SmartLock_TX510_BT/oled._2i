@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP
+-I.\RTE\_stm32SmartLock_TX510_BT
+-IC:\Users\flying\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+-IC:\Users\flying\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB
+-o stm32smartlock_tx510_bt\oled.o --omf_browse stm32smartlock_tx510_bt\oled.crf --depend stm32smartlock_tx510_bt\oled.d --feedback "stm32SmartLock_TX510_BT\stm32SmartLock_TX510_BT.fed" "..\BSP\oled.c"

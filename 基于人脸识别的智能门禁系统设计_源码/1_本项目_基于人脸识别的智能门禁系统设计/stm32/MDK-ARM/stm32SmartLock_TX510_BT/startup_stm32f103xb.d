@@ -1,0 +1,1 @@
+stm32smartlock_tx510_bt\startup_stm32f103xb.o: startup_stm32f103xb.s
